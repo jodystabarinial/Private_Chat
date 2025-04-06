@@ -1,7 +1,7 @@
 # Private_Chat
  Windows Form Private Chat
 
-#V0.1
+# V0.1
 
 - Database Connection Management: Users can now connect and disconnect from the database at will.
 

@@ -31,3 +31,5 @@ C:\Users\jodys\Desktop\Private_Chat\bin\Debug\net9.0-windows\runtimes\unix\lib\n
 C:\Users\jodys\Desktop\Private_Chat\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_Chat.csproj.AssemblyReference.cache
 C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_.4DB2A82A.Up2Date
+C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_Chat.sourcelink.json
+C:\Users\jodys\Desktop\Private_Chat\bin\Debug\net9.0-windows\ReaLTaiizor.dll

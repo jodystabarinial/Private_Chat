@@ -58,9 +58,17 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "ReaLTaiizor": {
+              "target": "Package",
+              "version": "[3.8.1.2, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.Net.WebSockets.Client": {
+              "target": "Package",
+              "version": "[4.3.2, )"
             }
           },
           "imports": [

@@ -11,8 +11,8 @@
 
 - Connection Status Visibility: Users can now see whether they are connected or disconnected from the database.
 
-#V2.0
-- #***What's new?***
+# V2.0
+- # ***What's new?***
   
  - ***New*** graphical interface 🛠️
  - You can now start a chat with anyone you want!! 💬

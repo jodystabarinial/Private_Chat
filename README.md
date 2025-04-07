@@ -19,4 +19,4 @@
  - Messages in the database are encrypted and decrypted once they reach the recipient 🔒 (still needs to be perfected)
  - When you disconnect or close the form, everything (messages, IDs, etc.) is completely deleted from the server (As long as one of the two disconnects) 🛡️
   
-***minor bug fixes***
+***minor bug fixes*** 👾

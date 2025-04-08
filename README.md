@@ -25,3 +25,6 @@
    - When you disconnect or close the form, everything (messages, IDs, etc.) is completely deleted from the server (As long as one of the two disconnects) 🛡️
   
 ***minor bug fixes*** 👾
+
+# V2.0.1
+   ******Minor bug fixed:***

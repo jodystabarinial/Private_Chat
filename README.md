@@ -1,7 +1,7 @@
 # Private_Chat
  Windows Form Private Chat
 
-# V1.0
+# V1.0.0
 
 - Database Connection Management: Users can now connect and disconnect from the database at will.
 
@@ -11,7 +11,12 @@
 
 - Connection Status Visibility: Users can now see whether they are connected or disconnected from the database.
 
-# V2.0
+# V1.0.1
+  ***Minor bug fixed:***
+   - It was showing two connection IDs.
+   - It can't be NULL 's'.
+
+# V2.0.0
    ***What's new?***
   
    - ***New*** graphical interface 🛠️

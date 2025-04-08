@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Net;
 using System.Text;
 using System.Text;
+using dotenv.net;
 using System.Security.Cryptography;
 namespace Private_Chat
 {
@@ -169,7 +170,7 @@ namespace Private_Chat
 					using (SqlCommand cmd = new SqlCommand(query, cnn))
 					{
 						cmd.Parameters.Add("@IDconn", System.Data.SqlDbType.Int).Value = idConnessione;
-						if(string.IsNullOrEmpty(Id_PersonaChat))
+						if (string.IsNullOrEmpty(Id_PersonaChat))
 						{
 							return;
 						}
@@ -207,7 +208,7 @@ namespace Private_Chat
 
 
 			System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-			timer.Interval = 5000; // 5 secondi
+			timer.Interval = 5000; 
 			timer.Tick += (s, ev) => ControllaMessaggi();
 			timer.Start();
 
@@ -290,7 +291,7 @@ namespace Private_Chat
 
 							textBoxMessages.AppendText($"[{data}] {mittente}: {testoDecifrato}\r\n");
 
-							// 🔁 Aggiorna lastMessageId
+							// Aggiorna lastMessageId
 							lastMessageId = currentId;
 						}
 					}
@@ -342,29 +343,49 @@ namespace Private_Chat
 
 		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			string query = "DELETE FROM Messaggi WHERE MittenteId = @IDconn AND DestinatarioId = @IDestinatario OR MittenteId = @IDestinatario AND DestinatarioId = @IDconn";
-			using (SqlCommand cmd = new SqlCommand(query, cnn))
+			try
 			{
-				cmd.Parameters.Add("@IDconn", System.Data.SqlDbType.Int).Value = idConnessione;
-				if (string.IsNullOrEmpty(Id_PersonaChat))
-				{
-					return;
-				}
 
-				if (!int.TryParse(Id_PersonaChat, out int idDestinatario))
+				string query = "DELETE FROM Messaggi WHERE MittenteId = @IDconn AND DestinatarioId = @IDestinatario OR MittenteId = @IDestinatario AND DestinatarioId = @IDconn";
+				if (cnn == null || cnn.State != System.Data.ConnectionState.Open)
 				{
 					return;
 				}
-				cmd.Parameters.Add("@IDestinatario", System.Data.SqlDbType.Int).Value = idDestinatario;
-				cmd.ExecuteNonQuery();
+				using (SqlCommand cmd = new SqlCommand(query, cnn))
+				{
+					cmd.Parameters.Add("@IDconn", System.Data.SqlDbType.Int).Value = idConnessione;
+					if (string.IsNullOrEmpty(Id_PersonaChat))
+					{
+						return;
+					}
+
+					if (!int.TryParse(Id_PersonaChat, out int idDestinatario))
+					{
+						return;
+					}
+					cmd.Parameters.Add("@IDestinatario", System.Data.SqlDbType.Int).Value = idDestinatario;
+					cmd.ExecuteNonQuery();
+				}
+				string query2 = "DELETE FROM Utenti WHERE IdConnessione = @IDConnessione";
+				using (cmd = new SqlCommand(query2, cnn))
+				{
+					cmd.Parameters.Add("@IDConnessione", System.Data.SqlDbType.Int).Value = idConnessione;
+					cmd.ExecuteNonQuery();
+				}
+				cnn.Close();
 			}
-			string query2 = "DELETE FROM Utenti WHERE IdConnessione = @IDConnessione";
-			using (cmd = new SqlCommand(query2, cnn))
+			catch (Exception ex)
 			{
-				cmd.Parameters.Add("@IDConnessione", System.Data.SqlDbType.Int).Value = idConnessione;
-				cmd.ExecuteNonQuery();
+				MessageBox.Show($"Sembra essere impossibile chiudere la form senza essere connessi al server." +
+					$" Prova ad aprire la connessione e poi ad chiudere la form (Questo errore non dovrebbe capitare, i dati" +
+					$"verranno comunque eliminati dal server");
+
 			}
-			cnn.Close();
+		}
+
+		private void hopePictureBox4_Click(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

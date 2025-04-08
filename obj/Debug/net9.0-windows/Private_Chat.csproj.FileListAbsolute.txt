@@ -33,3 +33,5 @@ C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_Chat.csproj
 C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_.4DB2A82A.Up2Date
 C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_Chat.sourcelink.json
 C:\Users\jodys\Desktop\Private_Chat\bin\Debug\net9.0-windows\ReaLTaiizor.dll
+C:\Users\jodys\Desktop\Private_Chat\obj\Debug\net9.0-windows\Private_Chat.Properties.Resources.resources
+C:\Users\jodys\Desktop\Private_Chat\bin\Debug\net9.0-windows\dotenv.net.dll

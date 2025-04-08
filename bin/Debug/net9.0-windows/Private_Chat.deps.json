@@ -12,10 +12,19 @@
           "Microsoft.Extensions.Configuration.Json": "9.0.3",
           "ReaLTaiizor": "3.8.1.2",
           "System.Data.SqlClient": "4.9.0",
-          "System.Net.WebSockets.Client": "4.3.2"
+          "System.Net.WebSockets.Client": "4.3.2",
+          "dotenv.net": "3.2.1"
         },
         "runtime": {
           "Private_Chat.dll": {}
+        }
+      },
+      "dotenv.net/3.2.1": {
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {
+            "assemblyVersion": "3.2.1.0",
+            "fileVersion": "3.2.1.0"
+          }
         }
       },
       "Microsoft.Extensions.Configuration/9.0.3": {
@@ -711,6 +720,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "dotenv.net/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2fc2s5PH6wAoWQ8bpyVgz28y9qMs/t8ToiCKqSM6mWpjgg4QQSPtZ0nia0x/OebGLSDbxyOelVH+fULZH7N4mA==",
+      "path": "dotenv.net/3.2.1",
+      "hashPath": "dotenv.net.3.2.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/9.0.3": {
       "type": "package",

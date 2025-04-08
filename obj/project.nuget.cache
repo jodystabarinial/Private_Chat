@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XjL9mrvvm+A=",
+  "dgSpecHash": "agY6cB4Zv0k=",
   "success": true,
   "projectFilePath": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Private_Chat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jodys\\.nuget\\packages\\dotenv.net\\3.2.1\\dotenv.net.3.2.1.nupkg.sha512",
     "C:\\Users\\jodys\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.3\\microsoft.extensions.configuration.9.0.3.nupkg.sha512",
     "C:\\Users\\jodys\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.3\\microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
     "C:\\Users\\jodys\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.3\\microsoft.extensions.configuration.fileextensions.9.0.3.nupkg.sha512",

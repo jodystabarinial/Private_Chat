@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\jodys\\Desktop\\Private_Chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|C:\\Users\\jodys\\Desktop\\Private_Chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Messaggi.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,17 +28,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAADkBAAAAAAAAAAAAAE4BAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAADwv7oAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:28:23.534Z",
               "IsPinned": true,
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -63,32 +63,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Utenti [Dati]",
+              "DocumentIndex": 2,
+              "Title": "dbo.Utenti.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql",
-              "ToolTip": "dbo.Utenti [Dati]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-07T19:41:06.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:41:06.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Messaggi [Dati]",
+              "DocumentIndex": 4,
+              "Title": "dbo.Messaggi.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Messaggi.sql",
-              "ToolTip": "dbo.Messaggi [Dati]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Messaggi.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-07T19:41:02.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:41:02.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs [Progettazione]*",
-              "RelativeToolTip": "Form1.cs [Progettazione]*",
+              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:28:19.227Z",
               "EditorCaption": " [Progettazione]"

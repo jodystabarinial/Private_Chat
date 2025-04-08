@@ -31,12 +31,11 @@
 			textBox_Id_PersonaChat = new ReaLTaiizor.Controls.SmallTextBox();
 			buttonConnettiti = new ReaLTaiizor.Controls.Button();
 			button_Connettiti = new ReaLTaiizor.Controls.Button();
-			label = new ReaLTaiizor.Controls.SmallLabel();
+			label_Id_Connessione = new ReaLTaiizor.Controls.SmallLabel();
 			smallLabel1 = new ReaLTaiizor.Controls.SmallLabel();
 			label_Stato_Connessione = new ReaLTaiizor.Controls.SmallLabel();
 			buttonAggiornaRichiesteChat = new ReaLTaiizor.Controls.Button();
 			bigTextBoxMessaggio = new ReaLTaiizor.Controls.BigTextBox();
-			label_Id_Connessione = new ReaLTaiizor.Controls.SmallLabel();
 			buttonInviaMessaggio = new ReaLTaiizor.Controls.Button();
 			textBoxMessages = new TextBox();
 			SuspendLayout();
@@ -99,17 +98,17 @@
 			button_Connettiti.TextAlignment = StringAlignment.Center;
 			button_Connettiti.Click += button_Connettiti_Click;
 			// 
-			// label
+			// label_Id_Connessione
 			// 
-			label.AutoSize = true;
-			label.BackColor = Color.Transparent;
-			label.Font = new Font("Segoe UI", 8F);
-			label.ForeColor = Color.FromArgb(142, 142, 142);
-			label.Location = new Point(8, 41);
-			label.Name = "label";
-			label.Size = new Size(94, 13);
-			label.TabIndex = 11;
-			label.Text = "ID Connessione: ";
+			label_Id_Connessione.AutoSize = true;
+			label_Id_Connessione.BackColor = Color.Transparent;
+			label_Id_Connessione.Font = new Font("Segoe UI", 8F);
+			label_Id_Connessione.ForeColor = Color.FromArgb(142, 142, 142);
+			label_Id_Connessione.Location = new Point(12, 41);
+			label_Id_Connessione.Name = "label_Id_Connessione";
+			label_Id_Connessione.Size = new Size(94, 13);
+			label_Id_Connessione.TabIndex = 11;
+			label_Id_Connessione.Text = "ID Connessione: ";
 			// 
 			// smallLabel1
 			// 
@@ -174,17 +173,6 @@
 			bigTextBoxMessaggio.TextAlignment = HorizontalAlignment.Left;
 			bigTextBoxMessaggio.UseSystemPasswordChar = false;
 			// 
-			// label_Id_Connessione
-			// 
-			label_Id_Connessione.AutoSize = true;
-			label_Id_Connessione.BackColor = Color.Transparent;
-			label_Id_Connessione.Font = new Font("Segoe UI", 8F);
-			label_Id_Connessione.ForeColor = Color.FromArgb(142, 142, 142);
-			label_Id_Connessione.Location = new Point(102, 41);
-			label_Id_Connessione.Name = "label_Id_Connessione";
-			label_Id_Connessione.Size = new Size(0, 13);
-			label_Id_Connessione.TabIndex = 17;
-			// 
 			// buttonInviaMessaggio
 			// 
 			buttonInviaMessaggio.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -222,12 +210,11 @@
 			ClientSize = new Size(800, 450);
 			Controls.Add(textBoxMessages);
 			Controls.Add(buttonInviaMessaggio);
-			Controls.Add(label_Id_Connessione);
 			Controls.Add(bigTextBoxMessaggio);
 			Controls.Add(buttonAggiornaRichiesteChat);
 			Controls.Add(label_Stato_Connessione);
 			Controls.Add(smallLabel1);
-			Controls.Add(label);
+			Controls.Add(label_Id_Connessione);
 			Controls.Add(button_Connettiti);
 			Controls.Add(buttonConnettiti);
 			Controls.Add(textBox_Id_PersonaChat);
@@ -243,12 +230,11 @@
 		private ReaLTaiizor.Controls.SmallTextBox textBox_Id_PersonaChat;
 		private ReaLTaiizor.Controls.Button buttonConnettiti;
 		private ReaLTaiizor.Controls.Button button_Connettiti;
-		private ReaLTaiizor.Controls.SmallLabel label;
+		private ReaLTaiizor.Controls.SmallLabel label_Id_Connessione;
 		private ReaLTaiizor.Controls.SmallLabel smallLabel1;
 		private ReaLTaiizor.Controls.SmallLabel label_Stato_Connessione;
 		private ReaLTaiizor.Controls.Button buttonAggiornaRichiesteChat;
 		private ReaLTaiizor.Controls.BigTextBox bigTextBoxMessaggio;
-		private ReaLTaiizor.Controls.SmallLabel label_Id_Connessione;
 		private ReaLTaiizor.Controls.Button buttonInviaMessaggio;
 		private TextBox textBoxMessages;
 	}

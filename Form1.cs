@@ -159,23 +159,40 @@ namespace Private_Chat
 
 		private void button_Connettiti_Click(object sender, EventArgs e)
 		{
-			if (cnn != null && cnn.State == System.Data.ConnectionState.Open)
+			try
 			{
-				DisconnettiDb();
-				string query = "DELETE FROM Messaggi WHERE MittenteId = @IDconn AND DestinatarioId = @IDestinatario OR MittenteId = @IDestinatario AND DestinatarioId = @IDconn";
-				cnn.Open();
-				using (SqlCommand cmd = new SqlCommand(query, cnn))
+				if (cnn != null && cnn.State == System.Data.ConnectionState.Open)
 				{
-					cmd.Parameters.Add("@IDconn", System.Data.SqlDbType.Int).Value = idConnessione;
-					cmd.Parameters.Add("@IDestinatario", System.Data.SqlDbType.Int).Value = int.Parse(Id_PersonaChat);
-					cmd.ExecuteNonQuery();
-				}
+					DisconnettiDb();
+					string query = "DELETE FROM Messaggi WHERE MittenteId = @IDconn AND DestinatarioId = @IDestinatario OR MittenteId = @IDestinatario AND DestinatarioId = @IDconn";
+					cnn.Open();
+					using (SqlCommand cmd = new SqlCommand(query, cnn))
+					{
+						cmd.Parameters.Add("@IDconn", System.Data.SqlDbType.Int).Value = idConnessione;
+						if(string.IsNullOrEmpty(Id_PersonaChat))
+						{
+							return;
+						}
+						int destinatarioId;
+						if (!int.TryParse(Id_PersonaChat, out destinatarioId))
+						{
+							MessageBox.Show("ID destinatario non valido.");
+							return;
+						}
+						cmd.Parameters.Add("@IDestinatario", System.Data.SqlDbType.Int).Value = int.Parse(Id_PersonaChat);
+						cmd.ExecuteNonQuery();
+					}
 
-				cnn.Close();
+					cnn.Close();
+				}
+				else
+				{
+					ConnettiDb();
+				}
 			}
-			else
+			catch (Exception ex)
 			{
-				ConnettiDb();
+				MessageBox.Show($"Errore: {ex.Message}");
 			}
 		}
 		private void Form1_Load(object sender, EventArgs e)

@@ -39,7 +39,13 @@ For more updates, consult the *changelog* ⬇️
 
    ![funzionamento](https://github.com/user-attachments/assets/94ef0365-c9ca-43ac-8aab-4acc5c6b42a3)
 
+# V2.1.0
+  ***What's new?***
+  
+   -***Added*** loading screen! ⚙️
+   
+   ![ChatLoading](https://github.com/user-attachments/assets/c2d709bc-1186-4073-b38a-2a0fa77e9543)
 
-   ***The application is still in development, so there may be some complications.*** ❗⚙️
+***The application is still in development, so there may be some complications.*** ❗⚙️
 
 #Privacy #SecureChat #OpenSource #Anonymity #Cryptography

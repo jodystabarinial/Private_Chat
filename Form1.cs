@@ -7,6 +7,8 @@ using System.Text;
 using System.Text;
 using dotenv.net;
 using System.Security.Cryptography;
+using System;
+using System.Windows.Forms;
 namespace Private_Chat
 {
 	public partial class Form1 : Form
@@ -18,6 +20,9 @@ namespace Private_Chat
 
 		int idConnessione;
 		string Id_PersonaChat;
+
+		
+
 		//Connessione Database
 		public void ConnettiDb()
 		{
@@ -148,9 +153,16 @@ namespace Private_Chat
 				MessageBox.Show($"Errore durante l'aggiornamento delle richieste chat: {ex.Message}");
 			}
 		}
+		private Page_Loading formCaricamento;
 		public Form1()
 		{
+			formCaricamento = new Page_Loading();
+			formCaricamento.Show();
+			Application.DoEvents();
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
+
+			formCaricamento.Close();
 		}
 
 		private void label_Stato_Connessione_Click(object sender, EventArgs e)
@@ -211,6 +223,7 @@ namespace Private_Chat
 			timer.Interval = 5000; 
 			timer.Tick += (s, ev) => ControllaMessaggi();
 			timer.Start();
+
 
 		}
 

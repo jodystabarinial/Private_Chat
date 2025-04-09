@@ -204,10 +204,10 @@
 			// textBoxMessages
 			// 
 			textBoxMessages.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-			textBoxMessages.Location = new Point(212, 68);
+			textBoxMessages.Location = new Point(212, 81);
 			textBoxMessages.Multiline = true;
 			textBoxMessages.Name = "textBoxMessages";
-			textBoxMessages.Size = new Size(345, 553);
+			textBoxMessages.Size = new Size(345, 540);
 			textBoxMessages.TabIndex = 22;
 			// 
 			// hopePictureBox1
@@ -230,7 +230,7 @@
 			hopePictureBox2.Location = new Point(200, 12);
 			hopePictureBox2.Name = "hopePictureBox2";
 			hopePictureBox2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-			hopePictureBox2.Size = new Size(363, 50);
+			hopePictureBox2.Size = new Size(363, 59);
 			hopePictureBox2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
 			hopePictureBox2.TabIndex = 24;
 			hopePictureBox2.TabStop = false;

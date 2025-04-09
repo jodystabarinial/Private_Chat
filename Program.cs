@@ -1,3 +1,5 @@
+using System;
+using System.Windows.Forms;
 namespace Private_Chat
 {
     internal static class Program
@@ -6,12 +8,21 @@ namespace Private_Chat
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static async Task Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
-        }
-    }
+			ApplicationConfiguration.Initialize();
+			Application.EnableVisualStyles();
+			Application.SetCompatibleTextRenderingDefault(false);
+
+			// Crea e mostra la splash screen
+			var formCaricamento = new Page_Loading();
+			formCaricamento.Show();
+
+			var form1 = new Form1();
+
+			formCaricamento.Close();
+			Application.Run(form1);
+		}
+	
+	}
 }

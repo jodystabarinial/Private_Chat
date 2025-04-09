@@ -41,3 +41,5 @@ For more updates, consult the *changelog* ⬇️
 
 
    ***The application is still in development, so there may be some complications.*** ❗⚙️
+
+#Privacy #SecureChat #OpenSource #Anonymity #Cryptography

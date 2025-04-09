@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|C:\\Users\\jodys\\Desktop\\Private_Chat\\page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|C:\\Users\\jodys\\Desktop\\Private_Chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAIwKYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAIwJcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:28:23.534Z",
               "IsPinned": true,
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:25:12.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T15:25:12.824Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Page_Loading.cs [Progettazione]",
               "RelativeToolTip": "Page_Loading.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:16:47.454Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-04-09T15:16:47.454Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs [Progettazione]",
               "RelativeToolTip": "Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:28:19.227Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-04-06T20:28:19.227Z"
             }
           ]
         }

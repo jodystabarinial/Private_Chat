@@ -286,6 +286,7 @@
 			Name = "Form1";
 			Text = "Privacy chat ";
 			FormClosing += Form1_FormClosing;
+			FormClosed += Form1_FormClosed;
 			Load += Form1_Load;
 			((System.ComponentModel.ISupportInitialize)hopePictureBox1).EndInit();
 			((System.ComponentModel.ISupportInitialize)hopePictureBox2).EndInit();

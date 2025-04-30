@@ -21,7 +21,7 @@ namespace Private_Chat
 		int idConnessione;
 		string Id_PersonaChat;
 
-		
+
 
 		//Connessione Database
 		public void ConnettiDb()
@@ -220,7 +220,7 @@ namespace Private_Chat
 
 
 			System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-			timer.Interval = 5000; 
+			timer.Interval = 5000;
 			timer.Tick += (s, ev) => ControllaMessaggi();
 			timer.Start();
 
@@ -272,7 +272,7 @@ namespace Private_Chat
 					cmd.Parameters.Add("@testo", System.Data.SqlDbType.NVarChar).Value = messaggioCifrato;
 					cmd.ExecuteNonQuery();
 				}
-				MessageBox.Show("Messaggio inviato!");
+				//MessageBox.Show("Messaggio inviato!");
 			}
 			catch (Exception ex)
 			{
@@ -399,6 +399,34 @@ namespace Private_Chat
 		private void hopePictureBox4_Click(object sender, EventArgs e)
 		{
 
+		}
+
+		private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+		{
+			try
+			{
+				if (cnn != null && cnn.State == System.Data.ConnectionState.Open)
+				{
+					string query = "DELETE FROM Utenti WHERE IdConnessione = @IDConnessione";
+					using (cmd = new SqlCommand(query, cnn))
+					{
+						cmd.Parameters.Add("@IDConnessione", System.Data.SqlDbType.Int).Value = idConnessione;
+						cmd.ExecuteNonQuery();
+					}
+					cnn.Close();
+					label_Stato_Connessione.Text = "Stato Connessione: Disconnesso";
+					label_Id_Connessione.Text = $"ID Connessione: ";
+					button_Connettiti.Text = "Connettiti";
+				}
+				else
+				{
+					MessageBox.Show("La connessione non è aperta.");
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show($"Errore durante la disconnessione: {ex.Message}");
+			}
 		}
 	}
 }

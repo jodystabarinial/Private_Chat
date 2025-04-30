@@ -3,24 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\jodys\\Desktop\\Private_Chat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Messaggi.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|C:\\Users\\jodys\\Desktop\\Private_Chat\\page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|C:\\Users\\jodys\\Desktop\\Private_Chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|c:\\users\\jodys\\desktop\\private_chat\\page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8859CF27-F77D-4C16-8B60-2C5DAF78DF4D}|Private_Chat.csproj|solutionrelative:page_loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +24,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAIwJcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAIkBAAAAAAAAAAAUwJsBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:28:23.534Z",
               "IsPinned": true,
@@ -52,50 +46,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:25:12.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Page_Loading.cs",
-              "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Page_Loading.cs",
-              "RelativeDocumentMoniker": "Page_Loading.cs",
-              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Page_Loading.cs",
-              "RelativeToolTip": "Page_Loading.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:17:15.012Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Messaggi [Dati]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Messaggi.sql",
+              "ToolTip": "dbo.Messaggi [Dati]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-30T18:20:19.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Page_Loading.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Page_Loading.cs",
-              "RelativeDocumentMoniker": "Page_Loading.cs",
-              "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Page_Loading.cs [Progettazione]",
-              "RelativeToolTip": "Page_Loading.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:16:47.454Z"
+              "Title": "dbo.Utenti [Dati]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_JODYS_DOCUMENTS_CHATSERVER.MDF/True/SqlTable/dbo.Utenti.sql",
+              "ToolTip": "dbo.Utenti [Dati]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-30T18:17:59.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\jodys\\Desktop\\Private_Chat\\Form1.cs [Progettazione]",
               "RelativeToolTip": "Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:28:19.227Z"
+              "WhenOpened": "2025-04-30T18:17:19.98Z",
+              "EditorCaption": " [Progettazione]"
             }
           ]
         }
